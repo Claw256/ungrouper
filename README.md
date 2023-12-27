@@ -15,7 +15,7 @@ TLDR: Download this repo, install & activate the Addon, then press the "Ungroup"
 
 Steps:
 
-1. Download this repo as a zip, or just download the single `__init__.py` in this repo.
+1. Download this repo as a zip.
 2. Install & Activate the Blender Addon
 3. ***VERY IMPORTANT:*** Switch to the "Shading" workspace tab on the very top of Blender, then open the N-Panel to run the addon from that 3D Viewport window only. This is essential as the addon searches for the Node Editor window before executing the logic, and it will fail if you don't execute the addon in the right workspace (With the context being the  Shader Node Editor).
 4. Press the "Ungroup All Objects" on the "Ungrouper" tab in the N-Panel in the 3D Viewport
